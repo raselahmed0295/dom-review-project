@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom mini Review Project</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+    <div class="container mx-auto mt-20">
+        <div class="title flex items-center justify-center">
+            <h1 class="text-5xl text-bold">Goriber Evaly Rebooted 2.0</h1>
+            <img class="w-16 h-16 mx-4" src="./icon.png" alt="">
+        </div>
+        <div class="border-2 rounded-md my-8 mx-16">
+            <textarea class="px-4 py-4 w-full" name="" id="textArea" cols="10" rows="5" placeholder="write a reviews"></textarea>
+        </div>
+        <div class="flex justify-end mr-24">
+            <button id="reviewBtn" class="btn btn-accent">SUBMIT</button>
+        </div>
+    </div>
+    <div id="reviews" class="container mx-auto">
+        <h1 class="text-red-600 text-5xl font-bold ml-20 my-24">
+            User reviews.....
+        </h1>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
